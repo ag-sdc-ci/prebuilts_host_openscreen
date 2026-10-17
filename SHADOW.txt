@@ -1,0 +1,6 @@
+shadow prebuilt repo: openscreen (host)
+  upstream package: platform/external/openscreen
+  arch package: libopenscreen-platform-impl v14.0.0_r67-4
+  api-level: universal (branch universal)
+  layout: libopenscreen-platform-impl-*.pkg.tar.zst at root; extracted include/ and lib64/; Android.bp providing libopenscreen-platform-impl, libopenscreen-discovery
+  date: 2026-10-17

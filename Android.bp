@@ -1,0 +1,26 @@
+// Auto-generated prebuilt Blueprint for external/openscreen
+// Staged from Arch Linux package: libopenscreen-platform-impl
+
+cc_prebuilt_library_static {
+    name: "libopenscreen-platform-impl",
+    device_supported: false,
+    host_supported: true,
+    export_include_dirs: ["include"],
+    arch: {
+        x86_64: {
+            srcs: ["lib64/libopenscreen-platform-impl.a"],
+        },
+    },
+}
+
+cc_prebuilt_library_static {
+    name: "libopenscreen-discovery",
+    device_supported: false,
+    host_supported: true,
+    export_include_dirs: ["include"],
+    arch: {
+        x86_64: {
+            srcs: ["lib64/libopenscreen-discovery.a"],
+        },
+    },
+}
